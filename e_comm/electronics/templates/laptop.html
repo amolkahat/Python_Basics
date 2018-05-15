@@ -1,0 +1,7 @@
+{% if laptop_dict %}
+    {{laptop_dict}}
+    {% for i,j in laptop_dict.items() %}
+        <br>
+        {{i}} | {{j}}
+    {% endfor %}
+{% endif %}

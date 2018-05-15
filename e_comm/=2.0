@@ -1,0 +1,11 @@
+Collecting jinja
+  Using cached https://files.pythonhosted.org/packages/df/50/70f41c599cf0ace6c554b07108916513c70d0e950b0abb18c27a865df7a2/Jinja-1.2.tar.gz
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-gwa2_89w/jinja/setup.py", line 28
+        except DistutilsError, e:
+                             ^
+    SyntaxError: invalid syntax
+    
+    ----------------------------------------
