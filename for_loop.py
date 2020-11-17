@@ -1,6 +1,8 @@
 
 
-l = (1, 3, 4)
+list = (1, 3, 4)
 
-for i in l:
+for i in list:
     print(i)
+    
+ 
