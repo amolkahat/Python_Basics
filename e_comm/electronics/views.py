@@ -1,8 +1,10 @@
-from django.shortcuts import render, redirect
 from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import redirect, render
 from django.template import loader
+
 # Create your views here.
 from .models import laptops
+
 
 def index(request):
     return HttpResponse("hello Worlld")

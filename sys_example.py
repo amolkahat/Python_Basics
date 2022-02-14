@@ -1,5 +1,5 @@
-import sys
 import os
+import sys
 
 if len(sys.argv) == 1:
     print("Error. Not sufficient arguments")
@@ -13,7 +13,7 @@ if len(sys.argv) >= 1:
 
 
 # Create TODO App.
-# options will be 
+# options will be
 # -a for add
 # -d delete the option.
 # -l for display
@@ -27,15 +27,3 @@ if len(sys.argv) >= 1:
 # https://etherpad.openstack.org/p/python_todo
 # https://github.com/amolkahat/Python_Basics
 # https://pymbook.readthedocs.io
-
-
-
-
-
-
-
-
-
-
-
-
